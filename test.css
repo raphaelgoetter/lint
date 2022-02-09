@@ -1,20 +1,14 @@
 .modal #modal {
-  display    : grid  ; grid-template-columns: 1fr;
+  display: grid  ; grid-template-columns: 1fr;
 
-  @media (min-width: 576px) {
+  content: "blue";
 
+  grid-template-columns: 1fr     1fr    ; gap: 1rem;
 
-         grid-template-columns: 1fr     1fr    ;
-      gap: 1rem;
-  }
-
-  @media (min-width    : 992px) {
-             grid-template-columns: repeat(3, 1fr);
-  };
-    kkk
+  grid-template-columns: repeat(3, 1fr);
 
 
-color: #1337;
+  color: #133377;
   color: pink;
 }
 

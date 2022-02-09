@@ -1,0 +1,23 @@
+{
+  "name": "lint",
+  "version": "1.0.0",
+  "description": "## environnement et contexte",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelgoetter/lint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphaelgoetter/lint/issues"
+  },
+  "homepage": "https://github.com/raphaelgoetter/lint#readme",
+  "devDependencies": {
+    "stylelint": "^14.4.0"
+  }
+}
