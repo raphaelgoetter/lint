@@ -1,14 +1,13 @@
 .modal #modal {
-  display: grid  ; grid-template-columns: 1fr;
+  display: grid; grid-template-columns: 1fr;
 
   content: "blue";
 
-  grid-template-columns: 1fr     1fr    ; gap: 1rem;
+  grid-template-columns: 1fr     1fr; gap: 1rem;
 
   grid-template-columns: repeat(3, 1fr);
 
-
-  color: #133377;
+  color: #13333377;
   color: pink;
 }
 
