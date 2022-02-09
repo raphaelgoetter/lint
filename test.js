@@ -23,3 +23,7 @@ function getIntoAnArgument() {
             console.log(arg);
     });
 }
+
+
+
+ddz

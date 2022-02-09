@@ -12,7 +12,9 @@
 
 - Markdownlint fonctionne
 - ESlint ne "peut pas formater le fichier .js"
-- Stylelint ne formate ni .css ni .js (avec ou sans fichier `stylelintrc`)
+- Stylelint ne formate ni .css ni .scss (avec ou sans fichier `stylelintrc`)
+
+Après modifications / enregistrements des fichiers .js, .css et .scss : "Aucune problème n'a été détecté dans l'espace de travail"
 
 ## settings VSCode
 
@@ -33,8 +35,9 @@
   "less.validate": false,
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
-  "eslint.format.enable": false,
+  "eslint.format.enable": true,
   "stylelint.enable": true,
+  "stylelint.config": null,
   "stylelint.validate": [
     "css",
     "less",
