@@ -16,6 +16,8 @@
 
 Après modifications / enregistrements des fichiers .js, .css et .scss : "Aucune problème n'a été détecté dans l'espace de travail"
 
+**IMPORTANT** : "normalement" [c'est censé marcher](https://stackoverflow.com/questions/69149058/why-the-stylelint-vscode-extension-is-not-working-on-my-computer).
+
 ## settings VSCode
 
 ```json
