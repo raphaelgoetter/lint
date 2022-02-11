@@ -1,8 +1,18 @@
 module.exports = {
-  plugins: ['vue', 'html'],
   parserOptions: {
     parser: '@babel/eslint-parser',
     requireConfigFile: false
+  },
+  extends: [
+    'eslint:recommended',
+    '@nuxtjs',
+    'plugin:nuxt/recommended'
+  ],
+  plugins: ['vue', 'tailwindcss'],
+  settings: {
+    'tailwindcss': {
+      'prependCustom': true
+    }
   },
   rules: {
     // Force des espaces consistants dans les parenthèses
