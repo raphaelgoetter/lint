@@ -1,5 +1,9 @@
 module.exports = {
   plugins: ['vue', 'html'],
+  parserOptions: {
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false
+  },
   rules: {
     // Force des espaces consistants dans les parenthèses
     'space-in-parens': ['error', 'never'],
